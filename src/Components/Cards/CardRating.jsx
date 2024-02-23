@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const CardRating = () => {
+const CardRating = ({ rating, star }) => {
     return (
-        <div>CardRating</div>
-    )
+        <div>
+            <div>Rating: {rating}</div>
+            <div>Star: {star}</div>
+        </div>
+    );
 }
 
-export default CardRating
+export default CardRating;

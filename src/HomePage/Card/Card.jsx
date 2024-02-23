@@ -8,7 +8,6 @@ const Card = ({ data }) => {
         <div>
             {data.map((item, index) => (
                 <div key={index} className="card-container">
-                    {/* Optional chaining (?) is used to handle cases where key might be missing */}
                     {item.image && <CardImg src={item.image} alt={item.imageHeading} />}
                     {item.rating && <CardRating rating={item.rating} star={item.star} />}
                     {item.heading && (
@@ -25,6 +24,6 @@ const Card = ({ data }) => {
             ))}
         </div>
     );
-};
+}
 
 export default Card;
