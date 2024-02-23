@@ -41,3 +41,57 @@
     color: #f39c12;
   }
 }
+.card-text {
+  font-size: 14px;
+  color: #333;
+
+  .card-heading,
+  .highlight-heading,
+  .highlight-para,
+  .discount,
+  .main-para,
+  .love-it-data {
+    margin-bottom: 10px;
+  }
+
+  .card-heading,
+  .highlight-heading,
+  .highlight-para,
+  .discount,
+  .main-para-item,
+  .love-it-item {
+    font-weight: bold;
+  }
+
+  .card-heading {
+    color: #3498db;
+  }
+
+  .highlight-heading {
+    color: #e74c3c;
+  }
+
+  .highlight-para {
+    color: #2ecc71;
+  }
+
+  .discount {
+    color: #f39c12;
+  }
+
+  .main-para,
+  .love-it-data {
+    ul {
+      padding-left: 20px;
+
+      li {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .main-para-num {
+    color: #e67e22;
+    margin-right: 5px;
+  }
+}
