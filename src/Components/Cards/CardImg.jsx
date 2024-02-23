@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const CardImg = () => {
+const CardImg = ({ src, alt }) => {
     return (
-        <div>CardImg</div>
-    )
+        <div>
+            <img src={src} alt={alt} />
+        </div>
+    );
 }
 
-export default CardImg
+export default CardImg;
