@@ -1,3 +1,4 @@
+import './Cards.scss'
 const CardText = ({
   heading,
   para,

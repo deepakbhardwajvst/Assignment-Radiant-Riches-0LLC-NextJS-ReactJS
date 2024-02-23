@@ -1,4 +1,5 @@
-import React from 'react';
+import ButtonTag from "../ButtonTag/ButtonTag";
+import './Cards.scss'
 
 const CardRating = ({ rating, ratingTag, star }) => {
     return (
@@ -8,7 +9,7 @@ const CardRating = ({ rating, ratingTag, star }) => {
                 <div className="ratingTag">{ratingTag}</div>
                 <div className="star">Star: {star}</div>
             </div>
-            <button type="button" className='btn-view'><div className="">View</div></button>
+            <ButtonTag name="view" />
         </div>
     );
 }

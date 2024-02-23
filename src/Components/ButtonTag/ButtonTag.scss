@@ -1,0 +1,13 @@
+.btn-view {
+  background: #1b88f4 !important;
+  color: #fff !important;
+  width: 232px !important;
+  height: 48px !important;
+  text-align: center !important;
+  border-radius: 12px !important;
+  border: none !important;
+
+  &:hover {
+    scale: 1.01 !important;
+  }
+}
