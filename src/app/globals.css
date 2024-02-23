@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background: #fbfcfd;
 }
 .container {
   max-width: 1024px;
@@ -10,4 +11,19 @@ body {
 .font-size1 {
   font-size: 14px;
   line-height: 20px;
+}
+.font-size2 {
+  font-size: 13px;
+  line-height: 20px;
+}
+.bg1 {
+  background: #fff;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
 }

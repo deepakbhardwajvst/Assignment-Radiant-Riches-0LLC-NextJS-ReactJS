@@ -1,0 +1,26 @@
+.breadcrumb {
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+  .breadcrumb-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 10px;
+  }
+
+  .breadcrumb-item {
+    display: inline-block;
+    margin-right: 5px;
+    color: #5c6874;
+
+    a {
+      text-decoration: none;
+      color: #5c6874;
+      &:hover {
+        text-decoration: underline;
+      }
+      span {
+        margin: 0 10px;
+      }
+    }
+  }
+}

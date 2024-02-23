@@ -53,7 +53,9 @@
         color: #d1d6da;
         font-size: 14px;
         line-height: 20px;
-
+        &:hover {
+          text-decoration: underline;
+        }
         &:last-child {
           margin-right: 0;
         }
