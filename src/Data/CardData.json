@@ -1,9 +1,10 @@
 [
   {
     "tag": "Best Choice",
-    "image": "https://www.figma.com/file/5aLPCUKLWbxISQReS6dHsu/NextJs%2FReactJs-Assignment?type=design&node-id=601%3A10&mode=design&t=4FkBxw6ukRTJXNhL-1",
+    "image": "/cardimg.png",
     "imageHeading": "Builder 1",
-    "heading": "WixPro 72-Inch Responsive Website Builder- Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+    "heading": "WixPro 72-Inch Responsive Website Builder- ",
+    "para": "Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
 
     "highlightHeading": "Main highlights",
     "highlightPara": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
@@ -13,9 +14,10 @@
   },
   {
     "tag": "Best Value",
-    "image": "https://www.figma.com/file/5aLPCUKLWbxISQReS6dHsu/NextJs%2FReactJs-Assignment?type=design&node-id=601%3A10&mode=design&t=4FkBxw6ukRTJXNhL-1",
+    "image": "/cardimg.png",
     "imageHeading": "Builder",
-    "heading": "SiteCraft 68-Inch Ultimate Web Design Studio- Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+    "heading": "SiteCraft 68-Inch Ultimate Web Design Studio- ",
+    "para": "Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
 
     "highlightHeading": "Main highlights",
     "highlightPara": "[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.",
@@ -24,9 +26,10 @@
     "star": 4.5
   },
   {
-    "image": "https://www.figma.com/file/5aLPCUKLWbxISQReS6dHsu/NextJs%2FReactJs-Assignment?type=design&node-id=601%3A10&mode=design&t=4FkBxw6ukRTJXNhL-1",
+    "image": "/cardimg.png",
     "imageHeading": "Builder 1",
-    "heading": "WixPro 72-Inch Responsive Website Builder- Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+    "heading": "WixPro 72-Inch Responsive Website Builder- ",
+    "para": "Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
 
     "highlightHeading": "Main highlights",
     "highlightPara": "WixPro 72-Inch Responsive Website Builder- Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
@@ -35,9 +38,10 @@
     "star": 5
   },
   {
-    "image": "https://www.figma.com/file/5aLPCUKLWbxISQReS6dHsu/NextJs%2FReactJs-Assignment?type=design&node-id=601%3A10&mode=design&t=4FkBxw6ukRTJXNhL-1",
+    "image": "/cardimg.png",
     "imageHeading": "CDK",
-    "heading": "CDK Resposive Builder: An extensive library of widgets and apps, and detailed step-by-step guides",
+    "heading": "CDK Resposive Builder: ",
+    "para": "An extensive library of widgets and apps, and detailed step-by-step guides",
 
     "discount": "26% Off",
     "highlightHeading": "Main highlights",

@@ -16,6 +16,7 @@ const Card = () => {
                     {item.heading && (
                         <CardText
                             heading={item.heading}
+                            para={item.para}
                             highlightHeading={item.highlightHeading}
                             highlightPara={item.highlightPara}
                             discount={item.discount}
@@ -23,7 +24,7 @@ const Card = () => {
                             whyWeLoveItData={item.whyWeLoveItData}
                         />
                     )}
-                    {item.rating && <CardRating rating={item.rating} star={item.star} />}
+                    {item.rating && <CardRating rating={item.rating} ratingTag={item.ratingTag} star={item.star} />}
                 </div>
             ))}
         </div>

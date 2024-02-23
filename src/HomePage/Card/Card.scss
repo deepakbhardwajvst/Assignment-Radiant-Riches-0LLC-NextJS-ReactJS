@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: space-around;
   .card-container {
-    border: 1px solid #ddd;
-    padding: 10px;
+    border: 1px solid #000000;
+    padding: 0 10px 10px 10px;
     margin: 10px;
     display: flex;
     width: 100%;
@@ -12,41 +12,31 @@
 }
 .card-img-container {
   margin-bottom: 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   .card-img {
+    width: 131px;
     max-width: 100%;
     height: auto;
   }
   .card-img-para {
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 14px;
     color: #555;
     white-space: nowrap;
-  }
-}
-.card-rating {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
-
-  .rating,
-  .star {
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 5px;
-  }
-
-  .star {
-    color: #f39c12;
+    text-align: center;
   }
 }
 .card-text {
   font-size: 14px;
   color: #333;
+  width: 50%;
+  margin-top: 20px;
 
   .card-heading,
-  .highlight-heading,
   .highlight-para,
   .discount,
   .main-para,
@@ -54,38 +44,55 @@
     margin-bottom: 10px;
   }
 
-  .card-heading,
-  .highlight-heading,
-  .highlight-para,
-  .discount,
-  .main-para-item,
-  .love-it-item {
+  .highlight-heading {
     font-weight: bold;
   }
 
   .card-heading {
-    color: #3498db;
+    color: #4b5665;
+    font-size: 16px;
+    line-height: 24px;
+    .card-heading-span {
+      font-weight: bold;
+      white-space: nowrap;
+    }
   }
 
   .highlight-heading {
-    color: #e74c3c;
+    font-weight: 700;
+    color: #4b5665;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .highlight-para {
-    color: #2ecc71;
+    color: #4b5665;
+    // margin-left: 10px;
+    margin: 10px;
   }
 
   .discount {
     color: #f39c12;
   }
 
+  .main-para {
+    ul {
+      background: #fff4ed;
+    }
+  }
   .main-para,
   .love-it-data {
     ul {
-      padding-left: 20px;
-
       li {
         margin-bottom: 5px;
+      }
+    }
+  }
+  .love-it-data {
+    ul {
+      li {
+        display: flex;
+        align-items: center;
       }
     }
   }
@@ -93,5 +100,56 @@
   .main-para-num {
     color: #e67e22;
     margin-right: 5px;
+  }
+  .Show-more {
+    color: #1b88f4;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.card-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 25%;
+  .rating-box {
+    width: 135px;
+    height: 118px;
+    background: #f3f9ff;
+    border-radius: 0 0 12px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .rating {
+      font-size: 32px;
+      line-height: 48px;
+    }
+    .rating,
+    .ratingTag {
+      color: #074786;
+      margin-bottom: 5px;
+    }
+
+    .star {
+      color: #f39c12;
+    }
+  }
+  .btn-view {
+    background: #1b88f4;
+    color: #fff;
+    width: 232px;
+    height: 48px;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
+
+    &:hover {
+      scale: 1.01;
+    }
   }
 }
