@@ -9,11 +9,10 @@ const Card = () => {
         return null;
     }
     return (
-        <div>
+        <div className="card">
             {CardData.map((item, index) => (
                 <div key={index} className="card-container">
                     {item.image && <CardImg src={item.image} alt={item.imageHeading} />}
-                    {item.rating && <CardRating rating={item.rating} star={item.star} />}
                     {item.heading && (
                         <CardText
                             heading={item.heading}
@@ -24,6 +23,7 @@ const Card = () => {
                             whyWeLoveItData={item.whyWeLoveItData}
                         />
                     )}
+                    {item.rating && <CardRating rating={item.rating} star={item.star} />}
                 </div>
             ))}
         </div>

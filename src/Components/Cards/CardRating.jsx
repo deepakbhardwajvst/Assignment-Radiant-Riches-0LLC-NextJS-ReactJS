@@ -2,9 +2,9 @@ import React from 'react';
 
 const CardRating = ({ rating, star }) => {
     return (
-        <div>
-            <div>Rating: {rating}</div>
-            <div>Star: {star}</div>
+        <div className="card-rating">
+            <div className="rating">Rating: {rating}</div>
+            <div className="star">Star: {star}</div>
         </div>
     );
 }

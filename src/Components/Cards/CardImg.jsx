@@ -2,8 +2,8 @@ import React from 'react';
 
 const CardImg = ({ src, alt }) => {
     return (
-        <div>
-            <img src={src} alt={alt} />
+        <div className="card-img-container">
+            <img className="card-img" src={src} alt={alt} />
         </div>
     );
 }

@@ -9,29 +9,29 @@ const CardText = ({
   whyWeLoveItData,
 }) => {
   return (
-    <div>
-      {heading && <div>Heading: {heading}</div>}
-      {highlightHeading && <div>Highlight Heading: {highlightHeading}</div>}
-      {highlightPara && <div>Highlight Paragraph: {highlightPara}</div>}
-      {discount && <div>Discount: {discount}</div>}
+    <div className="card-text">
+      {heading && <div className="card-heading">Heading: {heading}</div>}
+      {highlightHeading && <div className="highlight-heading">Highlight Heading: {highlightHeading}</div>}
+      {highlightPara && <div className="highlight-para">Highlight Paragraph: {highlightPara}</div>}
+      {discount && <div className="discount">Discount: {discount}</div>}
       {mainPara && (
-        <div>
+        <div className="main-para">
           Main Paragraph:
           <ul>
             {mainPara.map((para, index) => (
-              <li key={index}>
-                {para.num && <span>Num: {para.num}</span>} {para.text}
+              <li key={index} className="main-para-item">
+                {para.num && <span className="main-para-num">Num: {para.num}</span>} {para.text}
               </li>
             ))}
           </ul>
         </div>
       )}
       {whyWeLoveItData && (
-        <div>
+        <div className="love-it-data">
           Why We Love It Data:
           <ul>
             {whyWeLoveItData.map((item, index) => (
-              <li key={index}>{item}</li>
+              <li key={index} className="love-it-item">{item}</li>
             ))}
           </ul>
         </div>
