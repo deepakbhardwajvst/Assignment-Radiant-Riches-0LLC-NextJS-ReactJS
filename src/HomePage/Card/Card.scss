@@ -6,9 +6,38 @@
     border: 1px solid #ddd;
     padding: 10px;
     margin: 10px;
-    width: 300px;
-
     display: flex;
     width: 100%;
+  }
+}
+.card-img-container {
+  margin-bottom: 10px;
+  .card-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card-img-para {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+    white-space: nowrap;
+  }
+}
+.card-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+
+  .rating,
+  .star {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  .star {
+    color: #f39c12;
   }
 }
