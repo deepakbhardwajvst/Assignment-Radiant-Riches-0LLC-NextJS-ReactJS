@@ -1,0 +1,20 @@
+.tools-list {
+  display: flex;
+  justify-content: flex-start;
+  //   margin-top: 10px;
+
+  .tool-button {
+    width: 140px;
+    background: #fff;
+    color: #4b5665;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
