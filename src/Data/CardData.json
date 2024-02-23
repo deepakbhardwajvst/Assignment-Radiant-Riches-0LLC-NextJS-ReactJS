@@ -1,0 +1,56 @@
+[
+  {
+    "tag": "Best Choice",
+    "image": "https://www.figma.com/file/5aLPCUKLWbxISQReS6dHsu/NextJs%2FReactJs-Assignment?type=design&node-id=601%3A10&mode=design&t=4FkBxw6ukRTJXNhL-1",
+    "imageHeading": "Builder 1",
+    "heading": "WixPro 72-Inch Responsive Website Builder- Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+
+    "highlightHeading": "Main highlights",
+    "highlightPara": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
+    "rating": 9.8,
+    "ratingTag": "Exceptional",
+    "star": 5
+  },
+  {
+    "tag": "Best Value",
+    "image": "https://www.figma.com/file/5aLPCUKLWbxISQReS6dHsu/NextJs%2FReactJs-Assignment?type=design&node-id=601%3A10&mode=design&t=4FkBxw6ukRTJXNhL-1",
+    "imageHeading": "Builder",
+    "heading": "SiteCraft 68-Inch Ultimate Web Design Studio- Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+
+    "highlightHeading": "Main highlights",
+    "highlightPara": "[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.",
+    "rating": 9.5,
+    "ratingTag": "Excellent",
+    "star": 4.5
+  },
+  {
+    "image": "https://www.figma.com/file/5aLPCUKLWbxISQReS6dHsu/NextJs%2FReactJs-Assignment?type=design&node-id=601%3A10&mode=design&t=4FkBxw6ukRTJXNhL-1",
+    "imageHeading": "Builder 1",
+    "heading": "WixPro 72-Inch Responsive Website Builder- Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+
+    "highlightHeading": "Main highlights",
+    "highlightPara": "WixPro 72-Inch Responsive Website Builder- Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+    "rating": 9.3,
+    "ratingTag": "Exceptional",
+    "star": 5
+  },
+  {
+    "image": "https://www.figma.com/file/5aLPCUKLWbxISQReS6dHsu/NextJs%2FReactJs-Assignment?type=design&node-id=601%3A10&mode=design&t=4FkBxw6ukRTJXNhL-1",
+    "imageHeading": "CDK",
+    "heading": "CDK Resposive Builder: An extensive library of widgets and apps, and detailed step-by-step guides",
+
+    "discount": "26% Off",
+    "highlightHeading": "Main highlights",
+    "highlightPara": "",
+    "mainPara": [
+      { "num": 9.9, "text": "building responsive" },
+      { "num": 8.9, "text": "Cool" },
+      { "num": 8.9, "text": "Docs" }
+    ],
+    "whyWeLoveIt": "",
+    "whyWeLoveItData": ["Documentation", "Easy Use", "Out of Box"],
+    "rating": 9.1,
+    "ratingTag": "Very Good",
+    "star": 4
+  }
+]
