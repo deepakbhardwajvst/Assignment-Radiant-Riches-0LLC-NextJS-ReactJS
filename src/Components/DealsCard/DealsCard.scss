@@ -1,16 +1,16 @@
 .DealsCard {
-  border: 1px solid #ccc;
+  // border: 1px solid #000000;
   border-radius: 12px;
-  padding: 10px 0;
-  margin: 20px 0;
-  width: 333px;
+  padding: 10px 20px;
+  // margin: 20px 0;
+  width: 28%;
   display: flex;
   flex-direction: column;
   //   align-items: center;
   //   justify-content: space-evenly;
 
   .dc-img {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -28,12 +28,15 @@
 
     .dc-discount,
     .dc-period {
-      margin-left: 10px;
+      // margin-left: 10px;
       font-size: 14px;
       background: #f2f4f7;
       color: #074786;
       border-radius: 8px;
       padding: 6px;
+    }
+    .dc-period {
+      margin-left: 10px;
     }
   }
 
@@ -49,20 +52,26 @@
     }
 
     .dc-fullname {
+      text-align: left;
       font-size: 16px;
       line-height: 24px;
+      font-weight: normal;
       color: #626e79;
+      margin-right: 20px;
     }
   }
 
   .dc-price-box {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
 
     .dc-current-price {
       font-size: 20px;
       line-height: 28px;
       color: #5c6874;
+      margin-right: 10px;
     }
 
     .dc-old-price {
@@ -70,6 +79,8 @@
       line-height: 20px;
       font-weight: normal;
       color: #9fa9b3;
+      margin-right: 10px;
+
       //   text-decoration: line-through;
     }
 

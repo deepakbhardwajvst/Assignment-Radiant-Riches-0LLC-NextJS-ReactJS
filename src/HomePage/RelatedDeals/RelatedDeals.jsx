@@ -28,8 +28,8 @@ const RelatedDeals = () => {
         oldPrice: "$49.96",
     }]
     return (
-        <div className='RelatedDeals'>
-            <h2 className="RD-heading">Related deals you might like for</h2>
+        <div className='RelatedDeals '>
+            <h2 className="RD-heading ">Related deals you might like for</h2>
             <div className="rd-data">
                 {
                     data.map((item, index) => {
