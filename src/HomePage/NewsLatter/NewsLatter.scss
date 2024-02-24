@@ -1,0 +1,43 @@
+.news-latter {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  background: #fbfcfd;
+  width: 100%;
+  .nl-heading {
+    font-size: 32px;
+    line-height: 44px;
+    color: #5c6874;
+    margin-bottom: 10px;
+    font-weight: normal;
+    width: 50%;
+  }
+
+  .nl-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    input[type="email"] {
+      padding: 10px;
+
+      border: none;
+      outline: none;
+      border-radius: 12px 0 0 12px;
+      width: 348px;
+    }
+
+    button {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 10px 20px;
+      width: 97px;
+      background-color: #1b88f4;
+      color: #fff;
+      border: none;
+      white-space: nowrap;
+      border-radius: 0 12px 12px 0;
+      cursor: pointer;
+    }
+  }
+}

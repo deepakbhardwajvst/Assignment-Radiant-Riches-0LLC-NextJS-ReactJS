@@ -4,6 +4,7 @@ import ToolsList from "./ToolList/ToolList";
 import Breadcrumb from './Breadcrumb/Breadcrumb';
 import Card from './Card/Card';
 import RelatedDeals from './RelatedDeals/RelatedDeals';
+import NewsLatter from './NewsLatter/NewsLatter';
 
 const HomePage = () => {
     return (
@@ -13,6 +14,7 @@ const HomePage = () => {
             <Breadcrumb />
             <Card />
             <RelatedDeals />
+            <NewsLatter />
         </div>
     )
 }
