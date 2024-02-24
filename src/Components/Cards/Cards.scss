@@ -48,7 +48,7 @@
 
   .highlight-heading {
     font-weight: 700;
-    color: #4b5665;
+    color: #2c384a;
     font-size: 16px;
     line-height: 24px;
   }
@@ -60,25 +60,44 @@
   }
 
   .discount {
-    color: #f39c12;
+    color: #074786;
+    background: #f2f4f7;
+    display: inline;
+    padding: 2px;
   }
 
   .main-para {
     ul {
       background: #fff4ed;
+      border: 2px solid #ecbfa3;
+      padding: 12px 12px 0 12px;
+      margin-left: 20px;
+      border-radius: 12px;
     }
   }
   .main-para,
   .love-it-data {
     ul {
       li {
-        margin-bottom: 5px;
+        color: #4b5665;
+        padding-bottom: 12px;
+        .main-para-num {
+          color: #1b88f4;
+          background: white;
+          padding: 4px;
+          border-radius: 4px;
+        }
       }
     }
   }
   .love-it-data {
+    color: #2c384a;
+    font-weight: 500;
     ul {
+      padding: 0px;
       li {
+        font-size: 15px;
+        line-height: 24px;
         display: flex;
         align-items: center;
       }
@@ -87,7 +106,7 @@
 
   .main-para-num {
     color: #e67e22;
-    margin-right: 5px;
+    // margin-right: 5px;
   }
   .Show-more {
     color: #1b88f4;
