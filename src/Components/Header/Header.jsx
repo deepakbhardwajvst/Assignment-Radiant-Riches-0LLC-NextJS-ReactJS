@@ -3,6 +3,7 @@ import { useState, useRef } from "react";
 
 import "./Header.scss";
 import useOutsideClick from "@/CustomHook/useOutSideClick";
+import Link from 'next/link';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -28,9 +29,9 @@ const Header = () => {
 
                 </div>
                 <ul className="nav-item">
-                    <li className="nav-item">Categories</li>
-                    <li className="nav-item">Website Builders</li>
-                    <li className="nav-item">Today's deals</li>
+                    <li className="nav-item"><Link href="/">Categories</Link></li>
+                    <li className="item" onClick={toggleMenu}><Link href="/">Website Builders</Link></li>
+                    <li className="item" onClick={toggleMenu}><Link href="/">Today's deals</Link></li>
                 </ul>
                 {/* Hamburger Menu */}
                 <div className={`hamburger-menu ${menuOpen ? 'cross' : ''}`} onClick={toggleMenu}>
@@ -41,9 +42,9 @@ const Header = () => {
 
                 {/* Navigation Items */}
                 <ul className={`ham-nav-item ${menuOpen ? 'menu-open' : ''}`}>
-                    <li className="item" onClick={toggleMenu}>Categories</li>
-                    <li className="item" onClick={toggleMenu}>Website Builders</li>
-                    <li className="item" onClick={toggleMenu}>Today's deals</li>
+                    <li className="item" onClick={toggleMenu}><Link href="/">Categories</Link></li>
+                    <li className="item" onClick={toggleMenu}><Link href="/">Website Builders</Link></li>
+                    <li className="item" onClick={toggleMenu}><Link href="/">Today's deals</Link></li>
                 </ul>
             </div>
 

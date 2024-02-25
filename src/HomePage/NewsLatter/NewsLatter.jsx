@@ -1,4 +1,5 @@
 import "./NewsLatter.scss";
+import Link from 'next/link';
 
 const NewsLatter = () => {
     return (
@@ -6,7 +7,7 @@ const NewsLatter = () => {
             <h5 className="nl-heading">Sign up and get exclusive special deals</h5>
             <div className="nl-box">
                 <input type="email" name="" className="" id="" />
-                <button type="submit">Sign Up</button>
+                <button type="submit"><Link href="/">Sign Up</Link></button>
             </div>
         </div>
     );

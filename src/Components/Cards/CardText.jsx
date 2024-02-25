@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import './Cards.scss';
 import { FaAngleDown } from "react-icons/fa6";
+import Link from 'next/link';
 
 const CardText = ({
   heading,
@@ -53,8 +54,8 @@ const CardText = ({
           </ul>
         </div>
       )}
-      {showMoreLink && !showAngleDown && <a href="" className="Show-more show-more1">Show more <FaAngleDown className='angle-down' /></a>}
-      {!showAngleDown && !showMoreLink && <a href="" className="Show-more">Show more</a>}
+      {showMoreLink && !showAngleDown && <Link href="" className="Show-more show-more1">Show more <FaAngleDown className='angle-down' /></Link>}
+      {!showAngleDown && !showMoreLink && <Link href="/" className="Show-more">Show more</Link>}
       {showAngleDown && setShowAngleDown(false)}
     </div>
   );

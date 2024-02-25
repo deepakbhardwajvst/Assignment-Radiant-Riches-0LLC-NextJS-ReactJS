@@ -1,8 +1,9 @@
 import "./ToolList.scss"
+import Link from 'next/link';
 const ToolButton = ({ name }) => {
     return (
         <button className="tool-button">
-            {name}
+            <Link href="/">{name}</Link>
         </button>
     );
 };

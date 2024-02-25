@@ -1,10 +1,11 @@
 
 import React from 'react';
+import Link from 'next/link';
 
 const BreadcrumbItem = ({ label, link, svg }) => {
     return (
         <li className="breadcrumb-item font-size1">
-            {link ? <a href={link}>{label} <span>{svg}</span></a> : label}
+            {link ? <Link href={link}>{label} <span>{svg}</span></Link> : label}
         </li>
     );
 };

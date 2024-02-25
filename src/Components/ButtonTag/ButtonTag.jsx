@@ -1,10 +1,10 @@
 import "./ButtonTag.scss"
-
+import Link from 'next/link';
 const ButtonTag = ({ name }) => {
     return (
         <button type="button" className='btn-view'>
-            {name}
-        </button>
+            <Link href="/"> {name}
+            </Link></button>
     )
 }
 
