@@ -1,8 +1,16 @@
-import React from 'react'
-import "./Header.scss"
+"use client"
+import React, { useState } from 'react';
+import "./Header.scss";
+
 const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
-        <nav className='navbar'>
+        <nav className={`navbar`}>
             <div className="container1">
                 <div className="search-box">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -17,7 +25,21 @@ const Header = () => {
                     <li className="nav-item">Website Builders</li>
                     <li className="nav-item">Today's deals</li>
                 </ul>
+                {/* Hamburger Menu */}
+                <div className={`hamburger-menu ${menuOpen ? 'cross' : ''}`} onClick={toggleMenu}>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                </div>
+
+                {/* Navigation Items */}
+                <ul className={`ham-nav-item ${menuOpen ? 'menu-open' : ''}`}>
+                    <li className="item">Categories</li>
+                    <li className="item">Website Builders</li>
+                    <li className="item">Today's deals</li>
+                </ul>
             </div>
+
         </nav>
     )
 }
