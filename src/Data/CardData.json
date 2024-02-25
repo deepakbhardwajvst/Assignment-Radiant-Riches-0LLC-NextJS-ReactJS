@@ -10,7 +10,8 @@
     "highlightPara": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
     "rating": 9.8,
     "ratingTag": "Exceptional",
-    "star": 5
+    "star": 5,
+    "showMoreLink": true
   },
   {
     "tag": "Best Value",
@@ -23,7 +24,8 @@
     "highlightPara": "[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.",
     "rating": 9.5,
     "ratingTag": "Excellent",
-    "star": 4.5
+    "star": 4.5,
+    "showMoreLink": true
   },
   {
     "image": "/cardimg.png",

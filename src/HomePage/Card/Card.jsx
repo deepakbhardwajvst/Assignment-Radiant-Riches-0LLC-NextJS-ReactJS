@@ -22,6 +22,8 @@ const Card = () => {
                             discount={item.discount}
                             mainPara={item.mainPara}
                             whyWeLoveItData={item.whyWeLoveItData}
+
+                            showMoreLink={item.showMoreLink}
                         />
                     )}
                     {item.rating && <CardRating rating={item.rating} ratingTag={item.ratingTag} star={item.star} />}

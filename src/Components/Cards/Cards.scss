@@ -114,6 +114,13 @@
       text-decoration: underline;
     }
   }
+  .show-more1 {
+    display: flex;
+    align-items: center;
+    .angle-down {
+      margin-left: 5px;
+    }
+  }
 }
 
 .card-rating {
@@ -146,5 +153,18 @@
     .star {
       color: #f39c12;
     }
+  }
+}
+.star-rating {
+  .star-filled {
+    color: #ffb80f; /* Set your desired #FFB80F color */
+    // background: #ffb80f;
+  }
+
+  .star-half {
+    color: #ffb80f; /* Set your desired #FFB80F color */
+  }
+  .star-empty {
+    color: #ffb80f; /* Set your desired #FFB80F color */
   }
 }
