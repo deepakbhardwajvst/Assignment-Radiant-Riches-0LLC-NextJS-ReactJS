@@ -18,7 +18,7 @@
       position: absolute;
       top: 5px;
       right: 10px;
-
+      opacity: 0;
       .line {
         background-color: #fff;
         height: 2px;
@@ -116,6 +116,10 @@
       }
     }
     @media screen and (max-width: 811px) {
+      .hamburger-menu {
+        opacity: 1 !important;
+      }
+
       .ham-nav-item.menu-open {
         display: flex;
         flex-direction: column;

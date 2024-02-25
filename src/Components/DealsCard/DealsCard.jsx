@@ -1,11 +1,16 @@
 import "./DealsCard.scss"
 import ButtonTag from './../ButtonTag/ButtonTag';
-
+import Image from "next/image";
 const DealsCard = ({ item }) => {
 
     return (
         <div className="DealsCard">
-            <div className="dc-img"><img src={item.img} alt={item.fullName} className="dc-image" /></div>
+            <div className="dc-img"><Image
+                src={item.img} alt={item.fullName} className="dc-image"
+                height={480}
+                width={480}
+                loading="lazy"
+            /></div>
             <div className="dc-offer-box">
                 <p className="dc-discount">{item.discount}</p><p className="dc-period">{item.period}</p>
             </div>

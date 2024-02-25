@@ -9,3 +9,11 @@
     // margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 811px) {
+  .hero {
+    .hero-heading {
+      font-size: 34px;
+      line-height: 48px;
+    }
+  }
+}
