@@ -4,7 +4,7 @@
   //   margin-top: 10px;
 
   .tool-button {
-    width: 140px;
+    max-width: 140px;
     background: #fff;
     color: #4b5665;
     padding: 5px 10px;
@@ -13,8 +13,30 @@
     cursor: pointer;
     font-size: 14px;
     margin-right: 10px;
+    white-space: nowrap;
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+@media screen and (width<= 521px) {
+  .tools-list {
+    .tool-button {
+      max-width: 100px;
+      padding: 5px 2px;
+      margin-right: 10px;
+    }
+  }
+}
+@media screen and (width<= 435px) {
+  .tools-list {
+    flex-direction: column;
+    .tool-button {
+      text-align: start;
+
+      padding: 5px 0px;
+      margin-left: 10px;
+      margin-right: 0;
     }
   }
 }
