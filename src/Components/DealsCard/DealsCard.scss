@@ -3,7 +3,7 @@
   border-radius: 12px;
   padding: 10px 20px;
   background: #fff;
-  // margin: 20px 0;
+  margin-bottom: 10px;
   width: 28%;
   min-width: 270px;
   display: flex;
@@ -92,5 +92,10 @@
       line-height: 20px;
       color: #ef4c5d;
     }
+  }
+}
+@media screen and (max-width: 970px) {
+  .rd-data {
+    justify-content: space-around;
   }
 }

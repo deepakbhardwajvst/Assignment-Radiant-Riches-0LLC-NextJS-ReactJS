@@ -11,3 +11,8 @@
   color: #2c384a;
   margin: 40px 0 10px 0;
 }
+@media screen and (max-width: 970px) {
+  .rd-data {
+    justify-content: space-around;
+  }
+}

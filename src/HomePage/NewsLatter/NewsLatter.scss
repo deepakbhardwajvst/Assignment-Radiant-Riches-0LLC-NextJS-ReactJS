@@ -22,6 +22,10 @@
     input[type="email"] {
       padding: 10px;
       border: none;
+      // background: #000000;
+      // border-left: 5px solid #1b88f4;
+      // border-top: 2px solid #1b88f4;
+      // border-bottom: 2px solid #1b88f4;
       outline: none;
       border-radius: 12px 0 0 12px;
       width: 348px;
@@ -38,6 +42,53 @@
       white-space: nowrap;
       border-radius: 0 12px 12px 0;
       cursor: pointer;
+    }
+  }
+}
+@media screen and (max-width: 811px) {
+  .news-latter {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
+    width: 100%;
+    .nl-heading {
+      font-size: 26px;
+      line-height: 34px;
+      margin-left: 0px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .nl-box {
+      justify-content: flex-start;
+
+      width: 100%;
+      input[type="email"] {
+        width: 250px;
+      }
+
+      button {
+        width: 77px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 811px) {
+  .news-latter {
+    .nl-heading {
+      font-size: 22px;
+      line-height: 29px;
+    }
+
+    .nl-box {
+      input[type="email"] {
+        width: 220px;
+      }
+
+      button {
+        width: 70px;
+        padding: 10px 8px;
+      }
     }
   }
 }
