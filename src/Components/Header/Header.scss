@@ -55,6 +55,10 @@
       transform: translateY(-20px);
       li {
         flex-direction: column;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
 

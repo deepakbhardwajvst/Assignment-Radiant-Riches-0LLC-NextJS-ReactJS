@@ -1,17 +1,24 @@
-"use client"
-import React, { useState } from 'react';
+"use client";
+import { useState, useRef } from "react";
+
 import "./Header.scss";
+import useOutsideClick from "@/CustomHook/useOutSideClick";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-
+    const dropdownRef = useRef(null);
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+    //   <---- for hiding dropdown menu
+    const closeDropdown = () => setMenuOpen(false);
 
+    // Using the custom hook
+    useOutsideClick(dropdownRef, closeDropdown);
+    //    for hiding dropdown menu ---->
     return (
         <nav className={`navbar`}>
-            <div className="container1">
+            <div className="container1" ref={dropdownRef}>
                 <div className="search-box">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd" clipRule="evenodd" d="M1.25 10.5C1.25 5.39139 5.39139 1.25 10.5 1.25C15.6086 1.25 19.75 5.39139 19.75 10.5C19.75 15.6086 15.6086 19.75 10.5 19.75C5.39139 19.75 1.25 15.6086 1.25 10.5ZM10.5 2.75C6.21981 2.75 2.75 6.21981 2.75 10.5C2.75 14.7802 6.21981 18.25 10.5 18.25C14.7802 18.25 18.25 14.7802 18.25 10.5C18.25 6.21981 14.7802 2.75 10.5 2.75Z" fill="#626E79" />
@@ -34,9 +41,9 @@ const Header = () => {
 
                 {/* Navigation Items */}
                 <ul className={`ham-nav-item ${menuOpen ? 'menu-open' : ''}`}>
-                    <li className="item">Categories</li>
-                    <li className="item">Website Builders</li>
-                    <li className="item">Today's deals</li>
+                    <li className="item" onClick={toggleMenu}>Categories</li>
+                    <li className="item" onClick={toggleMenu}>Website Builders</li>
+                    <li className="item" onClick={toggleMenu}>Today's deals</li>
                 </ul>
             </div>
 
