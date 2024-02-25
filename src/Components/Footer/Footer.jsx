@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-box">
                     <p className='footer-us'><span className='footer-span'>United States</span> <span>
-                        <FaAngleDown className="FaAngleDown" />
+                        <FaAngleDown />
                     </span></p>
                 </div>
 
