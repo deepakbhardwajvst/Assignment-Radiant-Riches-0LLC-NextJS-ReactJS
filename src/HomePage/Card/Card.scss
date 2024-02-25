@@ -9,7 +9,23 @@
     display: flex;
     width: 100%;
     background: #fff;
-
+    flex-wrap: wrap;
     justify-content: space-between;
+  }
+}
+
+@media screen and (width<= 1100px) {
+  .card {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .card-container {
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 40%;
+      min-width: 280px;
+      flex-wrap: wrap;
+    }
   }
 }

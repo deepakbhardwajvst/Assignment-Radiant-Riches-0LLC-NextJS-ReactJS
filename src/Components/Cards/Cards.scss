@@ -168,3 +168,44 @@
     color: #ffb80f; /* Set your desired #FFB80F color */
   }
 }
+@media screen and (width<= 1100px) {
+  .card-img-container {
+    margin-bottom: 10px;
+    width: 100%;
+    min-width: 280px;
+  }
+  .card-text {
+    width: 100%;
+    min-width: 280px;
+
+    .card-heading {
+      font-size: 14px;
+      line-height: 22px;
+      .card-heading-span {
+        white-space: wrap;
+      }
+    }
+
+    .highlight-heading {
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 10px;
+    }
+
+    .highlight-para {
+      margin: 10px;
+    }
+  }
+
+  .card-rating {
+    width: 100%;
+    min-width: 280px;
+    .rating-box {
+      margin: 20px 0;
+      .rating {
+        font-size: 26px;
+        line-height: 40px;
+      }
+    }
+  }
+}
