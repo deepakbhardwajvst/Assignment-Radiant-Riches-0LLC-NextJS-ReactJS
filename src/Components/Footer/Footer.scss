@@ -24,6 +24,7 @@
         line-height: 20px;
         margin: 10px 0 20px 0;
         color: #b6bdc4;
+        white-space: nowrap;
       }
       .footer-us {
         margin-top: 90px;
@@ -37,6 +38,30 @@
         span {
           display: flex;
           align-items: center;
+        }
+      }
+    }
+  }
+}
+@media screen and (width<= 540px) {
+  .footer {
+    .f-container {
+      flex-wrap: wrap;
+
+      padding: 20px;
+
+      .footer-box {
+        text-align: left;
+        width: 40%;
+        h3 {
+          margin-bottom: 10px;
+        }
+        p {
+          margin-bottom: 10px;
+        }
+        .footer-us {
+          margin-top: 20px;
+          white-space: nowrap;
         }
       }
     }
