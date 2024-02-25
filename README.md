@@ -4,6 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+install the node packages
+npm install
+
 ```bash
 npm run dev
 # or
@@ -32,49 +35,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-import React from 'react';
-import ButtonTag from '../ButtonTag/ButtonTag';
-import './Cards.scss';
-
-const StarRating = ({ rating }) => {
-const filledStars = Math.floor(rating);
-const decimalPart = rating - filledStars;
-
-    const renderStars = () => {
-        const stars = [];
-        // Add filled stars
-        for (let i = 0; i < filledStars; i++) {
-            stars.push(<span key={i} className="star-filled filled">&#9733;</span>);
-        }
-        // Add half-filled star if there is a decimal part
-        if (decimalPart >= 0.5) {
-            stars.push(<span key="half" className="star-half filled">&#9733;</span>);
-        }
-        // Add empty stars to reach a total of 5 stars
-        const remainingStars = 5 - filledStars - (decimalPart >= 0.5 ? 1 : 0);
-        for (let i = 0; i < remainingStars; i++) {
-            stars.push(<span key={`empty-${i}`} className="star-empty">&#9733;</span>);
-        }
-        return stars;
-    };
-
-    return <div className="star-rating">{renderStars()}</div>;
-
-};
-
-const CardRating = ({ rating, ratingTag, star }) => {
-return (
-<div className="card-rating">
-<div className="rating-box">
-<div className="rating">{rating}</div>
-<div className="ratingTag">{ratingTag}</div>
-<StarRating rating={star} />
-</div>
-<ButtonTag name="view" />
-</div>
-);
-};
-
-export default CardRating;

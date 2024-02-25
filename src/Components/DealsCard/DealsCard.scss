@@ -1,5 +1,4 @@
 .DealsCard {
-  // border: 1px solid #000000;
   border-radius: 12px;
   padding: 10px 20px;
   background: #fff;
@@ -8,8 +7,6 @@
   min-width: 270px;
   display: flex;
   flex-direction: column;
-  //   align-items: center;
-  //   justify-content: space-evenly;
 
   .dc-img {
     margin-bottom: 50px;
@@ -27,11 +24,9 @@
 
   .dc-offer-box {
     display: flex;
-    // justify-content: space-between;
 
     .dc-discount,
     .dc-period {
-      // margin-left: 10px;
       font-size: 14px;
       background: #f2f4f7;
       color: #074786;
@@ -83,8 +78,6 @@
       font-weight: normal;
       color: #9fa9b3;
       margin-right: 10px;
-
-      //   text-decoration: line-through;
     }
 
     .dc-discount-percentage {
