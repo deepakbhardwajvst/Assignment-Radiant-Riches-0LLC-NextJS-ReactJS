@@ -36,3 +36,26 @@
     }
   }
 }
+@media screen and (width<= 572px) {
+  .advertising-dashboard {
+    align-items: flex-start;
+
+    .ad-box {
+      flex-direction: column;
+
+      .advertising-disclosure {
+        margin-left: 0;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+@media screen and (width<= 400px) {
+  .advertising-dashboard {
+    flex-direction: column;
+    .top-relevant {
+      margin-top: 4px;
+      margin-left: 25px;
+    }
+  }
+}
