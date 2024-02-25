@@ -2,7 +2,8 @@
 import { useState, useRef } from "react";
 
 import "./Header.scss";
-import useOutsideClick from "@/CustomHook/useOutSideClick";
+import useOutsideClick from "@/CustomHook/useOutsideClick";
+
 import Link from 'next/link';
 
 const Header = () => {
